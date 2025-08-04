@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Wazdan Sans', sans-serif;
+}
+
+section {
+    padding: 0px 0;
+}
+
+.main {
+    background-color: #12102B;
+}
+
+.hero .info h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 33px;
+    padding: 50px 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.extra-info {
+    text-align: center;
+    padding: 80px 0px;
+    z-index: 2;
+}
+
+.extra-info p {
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.extra-info h2 {
+    text-align: center;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social {
+    text-align: center;
+    padding: 0px 0px 100px;
+}
+
+.social-icon {
+    padding: 0px 15px 0px;
+    width: 120px;
+}
+
+.logo {
+    text-align: center;
+    padding: 84px 20px 20px 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.logo img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.hero-images {
+    text-align: center;
+
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.hero2 {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background: white;
+
+}
+
+.triangles {
+    background: no-repeat url("../assets/triangles.svg");
+    background-size: cover;
+    background-position: center top;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        padding: 50px 20px 20px 20px;
+    }
+
+    .logo img {
+        max-width: 300px;
+    }
+
+    .hero-img {
+        padding: 20px;
+    }
+
+    .hero .info h1 {
+        text-align: center;
+        font-size: 25px;
+        padding: 20px 20px 50px 20px;
+    }
+
+    .triangles {
+        display: none;
+    }
+
+    .extra-info p {
+        padding-top: 0px;
+    }
+}
+
+@font-face {
+    font-family: 'Wazdan Sans';
+    src: url('./fonts/WazdanSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wazdan Sans';
+    src: url('./fonts/WazdanSans-Medium.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wazdan Sans';
+    src: url('./fonts/WazdanSans-SemiBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wazdan Sans';
+    src: url('./fonts/WazdanSans-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wazdan Sans';
+    src: url('./fonts/WazdanSans-ExtraBold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
